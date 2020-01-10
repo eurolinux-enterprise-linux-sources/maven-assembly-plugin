@@ -1,6 +1,6 @@
 Name:           maven-assembly-plugin
 Version:        2.4
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Maven Assembly Plugin
 License:        ASL 2.0
 URL:            http://maven.apache.org/plugins/maven-assembly-plugin/
@@ -60,6 +60,9 @@ This package provides %{summary}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.4-8
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 2.4-7
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
